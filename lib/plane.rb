@@ -25,6 +25,7 @@ end
   def commence_take_off
     @current_airport.planes_in_airport.delete(self)
     @current_airport = nil
+    @plane_landed = nil
   end
 def take_off_message
     print "Plane has left the airport"

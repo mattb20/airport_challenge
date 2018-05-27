@@ -68,10 +68,9 @@ describe Plane do
       expect { plane.takeoff(airport) }. to raise_exception
 
     end
-
-
+    it 'changes plane state of being landed to nil' do
+      plane.land_plane(airport)
+      expect(plane.send :commence_take_off).to eq(nil)
+    end
   end
-
-
-
 end
