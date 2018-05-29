@@ -94,3 +94,6 @@ Features were tested regularly in irb as I went along.
 Lastly I added the edge cases to my test files, (e.g plane not allowed to leave an airport during bad weather).
 
 I tried to refactor my methods as I went along to ensure each had a single clear responsibility.
+
+## To do
+- Revisit tests involving storming weather
